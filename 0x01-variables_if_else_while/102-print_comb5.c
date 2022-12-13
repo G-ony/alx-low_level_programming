@@ -24,7 +24,6 @@ int main(void)
 
 		putchar (y / 10 + '0');
 		putchar (y % 10 + '0');
-	
 		if (x == 98 && y == 99)
 			break;
 
@@ -32,7 +31,6 @@ int main(void)
 		putchar (' ');
 
 		}
-	
 	}
 
 	putchar('\n');
