@@ -5,9 +5,7 @@
  * Description: Prints all possible combinations of two-digit numbers
  * Return: 0
  */
-
 int main(void)
-
 {
 
 	int x;
@@ -17,24 +15,19 @@ int main(void)
 	for (x = 0; x < max ; x++)
 
 	{
-	for (y = x + 1 ; y < max; y++)
+		for (y = x + 1 ; y < max; y++)
+		{
 
-	{
 
 	putchar (x / 10 + '0');
-
 	putchar (x % 10 + '0');
-
 	putchar (' ');
 
 	putchar (y / 10 + '0');
-
 	putchar (y % 10 + '0');
 
 	if (x == 98 && y == 99)
-
-	break;
-
+		break;
 
 	putchar(',');
 	putchar (' ');
@@ -43,9 +36,7 @@ int main(void)
 
 	putchar('\n');
 
-
-
-		return (0);
+	return (0);
 
 	}
 }
